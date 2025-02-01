@@ -18,3 +18,15 @@ function listarAmigos() {
         campoLista.appendChild(itemLista);
     }
 }
+
+function sortearAmigo() {
+    if (listaDeAmigos.length < 2) {
+        alert('A lista deve ter no mínimo 2 nomes!');
+        return;
+    }
+    let indiceAleatorio = Math.floor(Math.random() * listaDeAmigos.length);
+    let nomeEscolhido = (listaDeAmigos[indiceAleatorio]);
+
+    let campoResultado = document.getElementById('resultado');
+    campoResultado.innerHTML = `Seu amigo secreto é: ${nomeEscolhido}`;
+}
