@@ -2,7 +2,7 @@ let listaDeAmigos = [];
 
 function adicionarAmigo() {
     let campoAmigo = document.getElementById('amigo');
-    let nome = campoAmigo.value;
+    let nome = campoAmigo.value.trim();
     nome == '' ? alert('Por favor, insira um nome') : listaDeAmigos.push(nome);
     campoAmigo.value = '';
     listarAmigos();
