@@ -2,7 +2,7 @@
 
 <p align="center">
   <img alt="Static Badge" src="https://img.shields.io/badge/javascript%20-%20language%20-%20e0ba08?style=for-the-badge&logo=javascript&color=e0ba08">
-  <img alt="Static Badge" src="https://img.shields.io/badge/deploy%20-%20vercel%20-%20e02c2c?style=for-the-badge&logo=vercel&color=e02c2c">
+  <img alt="Static Badge" src="https://img.shields.io/badge/deploy%20-%20vercel%20-%20black?style=for-the-badge&logo=vercel">
   <img src="http://img.shields.io/static/v1?label=License&message=MIT&color=blue&style=for-the-badge"/>
   <img src="https://img.shields.io/badge/status%20-%20conclu%C3%ADdo%20-%20green?style=for-the-badge"/>
 </p>
